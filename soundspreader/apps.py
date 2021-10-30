@@ -1,5 +1,5 @@
 from django.apps import AppConfig
 
-class GreatsConfig(AppConfig):
+class SoundspreaderConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'greats'
+    name = 'soundspreader'

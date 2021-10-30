@@ -16,7 +16,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'greats',
+    'soundspreader',
     'rest_framework',
     'corsheaders'
 ]
@@ -34,7 +34,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'greats_django.urls'
+ROOT_URLCONF = 'soundspreader_django.urls'
 
 TEMPLATES = [
     {
@@ -52,15 +52,15 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'greats_django.wsgi.application'
+WSGI_APPLICATION = 'soundspreader_django.wsgi.application'
 
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'greats',
-        'USER': 'greatsuser',
-        'PASSWORD': 'greats',
+        'NAME': 'soundspreader',
+        'USER': 'soundspreaderuser',
+        'PASSWORD': 'soundspreader',
         'HOST': 'localhost'
     }
 }
