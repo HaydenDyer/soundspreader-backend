@@ -8,7 +8,7 @@ class Post(models.Model):
     created_on = models.DateField(default=now)
 
     class Meta:
-        ordering = ('created_on',)
+        ordering = ('-id',)
 
     def __str__(self):
         return f'{self.artist} - {self.songTitle}'
